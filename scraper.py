@@ -3,7 +3,7 @@ import json
 import os
 import urllib.request as urllib
 from concurrent.futures import ThreadPoolExecutor
-from fastai.vision import verify_images
+from fastai.vision.data import verify_images
 
 def get_element(el, count, save_dir):
     """Downloads bytes from url into save_dir"""
