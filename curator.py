@@ -7,7 +7,7 @@ import torch.nn as nn
 import torchvision.transforms as transforms
 import torchvision.models as models
 from torch.utils.data import Dataset, DataLoader
-from fastai.widgets.image_cleaner import FileDeleter
+from fastai.widgets.image_cleaner import ImageDeleter
 from PIL import Image
 
 class Numpize(nn.Module):
